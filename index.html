@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Coding Quiz Challenge</title>
+</head>
+<body>
+    <!-- scoring and timer container-->
+    <section>
+        <button  class="high-score" id="high-score-elem">
+            View High Scores
+        </button>
+        <div id="score-gen" class="results-text">
+            High Scores:
+        </div>
+        <button id="hide-btn" class="start-button">
+            Hide High Score
+        </button>
+        <div class="timer" id="counter">
+            Time: 
+        </div>
+    </section>
+    <!--Quiz intro section and start button-->
+    <section class="intro-section" id="quiz-start">
+        <div class="quiz-title">
+            Coding Quiz Challenge
+        </div>
+        <div class="quiz-description">
+            Try to answer the following code-related questions within the time limit.
+            Keep in mind that incorrect answers will penalize your score/time 
+            by ten seconds!
+        </div>
+        <button id="startbutton" class="start-button"> 
+            Start
+        </button>
+    </section>
+    <!--Question 1-->
+    <section class="question-one" id="question-one">
+        <div class="question-uno">
+            Question 1:
+            Which is an example of a string?
+            <div>
+                <button id="incorrect-one" class="incorrect-one">
+                    1,3,5,7,8
+                </button>
+                <button id="correct-one" class="correct-one">
+                    "1","3","5","7","8"
+                </button>
+            </div>
+        </div>
+    </section>
+    <!--Question 2-->
+    <section class="question-two" id="question-two">
+        <div class="question-dos">
+            Question 2:
+            Computers read code from the bottom to the top?
+                <button id="correct-two" class="correct-two">
+                    False
+                </button>
+                <button id="incorrect-two" class="incorrect-two">
+                    True
+                </button>
+        </div>
+    </section>
+    <!--Question 3-->
+    <section class="question-three" id="question-three">
+        <div class="question-tres">
+            Question 3:
+            What do Event Listeners do?
+                <button id="correct-three" class="correct-three">
+                    Create events based on user activity like clicks
+                </button>
+                <button id="incorrect-three" class="incorrect-three">
+                    Create an event that makes your computer listen to you
+                </button>
+        </div>
+    </section>
+    <!--Question 4-->
+    <section class="question-four" id="question-four">
+        <div class="question-cuatro">
+            Question 4:
+            /* */ is the correct way to make a comment in CSS?
+                <button id="correct-four" class="correct-four">
+                    True
+                </button>
+                <button id="incorrect-four" class="incorrect-four">
+                    False
+                </button>
+        </div>
+    </section>
+    <!--Question 5-->
+    <section class="question-five" id="question-five">
+        <div class="question-cinco">
+            Question 5:
+            What is a common practice to make your website accessible to all users?
+                <button id="incorrect-five" class="correct-five">
+                    Adding Booleans
+                </button>
+                <button id="correct-five" class="incorrect-five">
+                    Adding Alt Text to all images
+                </button>
+        </div>
+    </section>
+    <!--Results frame-->
+    <section class="results" id="results">
+        <div>
+            Results:
+        </div>
+        <div class="results-text" id="average">
+        </div>
+        <button id="retake-quiz" class="start-button"> Take the Quiz again </button>
+    </section>
+    <script src="./script.js">
+    </script>
+</body>
+</html>

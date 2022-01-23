@@ -1,0 +1,353 @@
+/* high score */
+
+.high-score {
+    background-color: red;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+    padding: 0.25em 0.75em;
+    min-width: 10ch;
+    min-height: 22px;
+}
+
+/* timer */
+
+.timer {
+    color: red;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* Coding Quiz Challenge title (first frame) */
+
+.quiz-title {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+}
+
+/* quiz description */
+
+.quiz-description {
+    font-size: small;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* intro section */
+
+.intro-section {
+    justify-content: center;
+    position: relative;
+}
+
+/* start button */
+
+.start-button {
+    background-color: red;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+    padding: 0.25em 0.75em;
+    min-width: 10ch;
+    min-height: 22px;
+}
+
+/* question one display allows it to appear and disappear */
+
+.question-one {
+    display: none;
+    justify-content: center;
+}
+
+/* incorrect answer one */
+
+.incorrect-one {
+    background-color: red;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+    padding: 0.25em 0.75em;
+    min-width: 10ch;
+    min-height: 22px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+/* correct answer one */
+
+.correct-one {
+    background-color: red;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+    padding: 0.25em 0.75em;
+    min-width: 10ch;
+    min-height: 22px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+/* question 1 style */ 
+
+.question-uno {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+}   
+
+/* question 2 display allows it to appear and disappear */
+
+.question-two {
+    display: none;
+    justify-content: center;
+}
+
+/* question 2 styling */
+
+.question-dos {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+}
+
+/* correct answer 2 */
+
+.correct-two {
+    background-color: red;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;   
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+    padding: 0.25em 0.75em;
+    min-width: 10ch;
+    min-height: 22px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+/* incorrect answer 2 */
+
+.incorrect-two {
+    background-color: red;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+    padding: 0.25em 0.75em;
+    min-width: 10ch;
+    min-height: 22px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+/* question 3 display allows it to appear and disappear */
+
+.question-three {
+    display: none;
+    justify-content: center;
+}
+
+/* question 3 styling */
+
+.question-tres {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+}
+
+/* correct answer 3 */
+
+.correct-three {
+    background-color: red;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;   
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+    padding: 0.25em 0.75em;
+    min-width: 10ch;
+    min-height: 22px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+/* incorrect answer 3 */
+
+.incorrect-three {
+    background-color: red;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+    padding: 0.25em 0.75em;
+    min-width: 10ch;
+    min-height: 22px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+/* question 4 display allows it to appear and disappear */
+
+.question-four {
+    display: none;
+    justify-content: center;
+}
+
+/* question 4 styling */
+
+.question-cuatro {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+}
+
+/* correct answer 4 */
+
+.correct-four {
+    background-color: red;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;  
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+    padding: 0.25em 0.75em;
+    min-width: 10ch;
+    min-height: 22px;
+    cursor: pointer; 
+    border-radius: 8px;
+}
+
+/* incorrect answer 4 */
+
+.incorrect-four {
+    background-color: red;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+    padding: 0.25em 0.75em;
+    min-width: 10ch;
+    min-height: 22px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+/* question 5 display allows it to appear and disappear */
+
+.question-five {
+    display: none;
+    justify-content: center;
+}
+
+/* question 5 styling */
+
+.question-cinco {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+}
+
+/* correct answer 5 */
+
+.correct-five {
+    background-color: red;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+    padding: 0.25em 0.75em;
+    min-width: 10ch;
+    min-height: 22px;
+    cursor: pointer;  
+    border-radius: 8px; 
+}
+
+/* incorrect answer 5 */
+
+.incorrect-five {
+    background-color: red;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+    padding: 0.25em 0.75em;
+    min-width: 10ch;
+    min-height: 22px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+/* results frame display */
+
+.results {
+    display: none;
+}
+
+/* results styling */
+
+.results {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+}
+
+/* Enter Name for High Score button */
+
+.enter-name {
+    background-color: red;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+}
+
+/* results text styling */
+
+.results-text {
+    text-align: center;
+    font-weight: bold;
+
+}
+
+/* makes score gen invisible until id called */
+
+#score-gen {
+    display: none;
+}
+
+/* hide button styling */
+
+#hide-btn {
+    display: none;
+    border-radius: 8px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+    padding: 0.25em 0.75em;
+    min-width: 10ch;
+    min-height: 22px;
+    cursor: pointer;
+}
