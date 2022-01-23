@@ -13,3 +13,9 @@ This week's challenge entails creating a coding quiz. I've created a coding quiz
 - User also has a high score button that records and can show user their score as long as page is not refreshed. 
 
 - User then has the option to press the Take Quiz Again button ans restart the quiz in an attempt to achieve a higher score and that score can also be logged. 
+
+URL : https://gdav24.github.io/CodingQuiz/
+
+Screenshot:
+
+![alt text](./screenshot.png)
